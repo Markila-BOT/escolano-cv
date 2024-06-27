@@ -8,7 +8,7 @@ export const RESUME_DATA = {
   about:
     "Senior Software Engineer with a strong focus on frontend technologies.",
   summary:
-    "I played a significant role in the development of a web application that serves millions of users globally. That’s when I decided to focus on the WEB because I believe in WEB development I can serve more people that want to access valuable and necessary information. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over a decade of experience in working remotely with companies all around the world.",
+    "I played a significant role in the development of a web application that serves millions of users globally. That’s when I decided to focus on the WEB because I believe in WEB development, I can serve more people that want to access valuable and necessary information. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over a decade of experience in working remotely with companies all around the world.",
   avatarUrl: "https://avatars.githubusercontent.com/u/33077253?v=4",
   personalWebsiteUrl: "https://escolano-portfolio.vercel.app/",
   contact: {
