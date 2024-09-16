@@ -21,27 +21,27 @@
     "cmdk": "^1.0.0",
     "graphql": "^16.9.0",
     "graphql-scalars": "^1.23.0",
-    "lucide-react": "^0.427.0",
-    "next": "14.2.5",
+    "lucide-react": "^0.441.0",
+    "next": "14.2.11",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "reflect-metadata": "^0.2.2",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
     "type-graphql": "2.0.0-rc.2",
-    "vaul": "^0.9.1"
+    "vaul": "^0.9.3"
   },
   "devDependencies": {
-    "@types/node": "^22.3.0",
-    "@types/react": "^18.3.3",
+    "@types/node": "^22.5.5",
+    "@types/react": "^18.3.6",
     "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.20",
-    "eslint": "^9.9.0",
-    "eslint-config-next": "14.2.5",
-    "postcss": "^8.4.41",
+    "eslint": "^9.10.0",
+    "eslint-config-next": "14.2.11",
+    "postcss": "^8.4.47",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.6",
-    "tailwindcss": "^3.4.10",
-    "typescript": "^5.5.4"
+    "tailwindcss": "^3.4.11",
+    "typescript": "^5.6.2"
   }
 }
