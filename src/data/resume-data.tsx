@@ -54,7 +54,7 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2021",
       description:
-        "Applying and using public/private APIs that will gather merchant's shop pieces of information from different marketplaces like Amazon, eBay, Walmart, Shopee, etc. Unit testing and integration testing with Jest and Cypress.",
+        "Applying and using public/private APIs that will gather merchant's shop pieces of information from different marketplaces like Shopfiy, Amazon, eBay, Walmart, etc. Unit testing and integration testing with Jest and Cypress.",
     },
     {
       company: "X-Climb",
