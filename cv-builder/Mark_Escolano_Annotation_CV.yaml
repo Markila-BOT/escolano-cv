@@ -1,0 +1,133 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+
+cv:
+  name: Mark Escolano
+  location: Metro Manila, Philippines
+  email: mark.escolano14@gmail.com
+  phone: "+63-977-365-4521"
+  website: https://escolano-portfolio.vercel.app/
+  social_networks:
+    - network: LinkedIn
+      username: mark-escolano-2715ab129
+    - network: GitHub
+      username: Markila-BOT
+
+  sections:
+    summary:
+      - "Senior full-stack engineer, 14+ years in production TypeScript. I ship SaaS and review generated diffs for API design, database and cache behavior, auth, and React or Next.js rendering and state."
+      - "Claude Code, Cursor, and Codex. Create skills, use official MCP servers, and follow through with a complete implementation when the first pass needs more work."
+
+    experience:
+      - company: WealthPark
+        position: Senior Software Engineer
+        location: Tokyo, Japan (Remote)
+        start_date: 2021-04
+        end_date: present
+        highlights:
+          - "Ship operator, owner, and valuation apps in React and Next.js. Review frontend architecture: state, extra renders, and whether browser APIs match what the UI claims."
+          - "REST and GraphQL over PostgreSQL for chat, documents, and activities. Check N+1 fetches, cache misses, and caching strategy; store-management caching cut load time by up to 2698%."
+          - "Claude Code, Cursor, and Codex. Create skills. Wire official MCP servers. Generated changes get tests, types, and an auth or permission check before they touch product data."
+          - "Mentored juniors on design and testing, and on taking a first-pass patch through review until it is ready to ship."
+
+      - company: MerchantSpring
+        position: Full Stack Engineer
+        location: Melbourne, Australia (Remote)
+        start_date: 2020-09
+        end_date: 2021-04
+        highlights:
+          - "Node.js ingest from Amazon, eBay, Walmart, and Shopify. Map marketplace payloads into our models and keep merchant accounts separate."
+          - "Jest and Cypress on the pipelines. Demoed against live marketplace behavior, including the staging failures."
+
+      - company: Rakuten
+        position: Front End Engineer
+        location: Tokyo, Japan
+        start_date: 2018-06
+        end_date: 2020-09
+        highlights:
+          - "React search and booking on a live travel product. Unit, integration, and snapshot tests on booking-critical paths."
+
+      - company: Bosch, NEC, Denso
+        position: Software Engineer
+        location: Tokyo / Manila
+        start_date: 2014-04
+        end_date: 2018-06
+        highlights:
+          - "Bosch: VIN lookup and CAN diagnostics against a central vehicle database (TDD, GRADE-X)."
+          - "NEC: network and traffic sniffer analysis, with unit, functional, and integration tests."
+          - "Denso: ECU software from Japan specs, including a complex spec that passed unit tests with zero defects on first run."
+
+    Selected platforms:
+      - name: PotatoV3 (operator console)
+        date: WealthPark
+        highlights:
+          - "Admin app for ownership, owner communication, and daily ops (TypeScript, React, Next.js, REST, WebSocket)."
+      - name: Rakuten Travel
+        date: Rakuten
+        highlights:
+          - "Supplier and consumer travel search and booking. Reusable React components, state, and tests on booking-critical paths (JavaScript, React, Flux, Redux, Jest, Cypress)."
+      - name: Alliance Diagnostic Tool
+        date: Bosch
+        highlights:
+          - "VIN-based diagnostics for Nissan, Mitsubishi, and Renault against a central vehicle database (JavaScript, Angular, Jest)."
+      - name: MerchantSpring Seller Tool
+        date: MerchantSpring
+        highlights:
+          - "Marketplace ingest and analytics (Node.js, Express, MySQL, MongoDB, Docker, Terraform)."
+
+    Code review:
+      - "Frontend: React and Next.js structure, state, rendering cost, and whether the UI matches the APIs it calls."
+      - "Backend: REST and GraphQL design, database modeling, caching, N+1 queries, and how services talk to each other."
+      - "Auth and access: login, permissions, and whether a generated change would expose data it should not."
+      - "Write the prompt or skill with a real constraint, then finish with types, tests, and the failure path."
+
+    skills:
+      - label: Frontend
+        details: React, Next.js, TypeScript, state management, rendering performance, WebSocket UIs, Jest, Cypress
+      - label: Backend and APIs
+        details: REST, GraphQL, PostgreSQL, MySQL, MongoDB, caching, N+1 and query performance, Node.js, NestJS, C#, Rust
+      - label: Auth and infra
+        details: Authentication, permission checks, Docker, Terraform, CI/CD, networking diagnostics
+      - label: AI tooling
+        details: Claude Code, Cursor, Codex, official MCP servers, skills, review of generated diffs
+
+    education:
+      - institution: Rizal Technological University
+        area: Computer Engineering
+        degree: BS
+        location: Mandaluyong, Philippines
+        start_date: 2008-03
+        end_date: 2013-03
+
+    certifications:
+      - label: JLPT
+        details: Japanese Language Proficiency Test N3
+      - label: JTEST
+        details: D Level
+
+settings:
+  pdf_title: Mark Escolano - Full-Stack Engineer
+
+design:
+  theme: engineeringresumes
+  page:
+    size: us-letter
+    show_footer: false
+    show_top_note: false
+    top_margin: 0.55in
+    bottom_margin: 0.5in
+    left_margin: 0.6in
+    right_margin: 0.6in
+  colors:
+    links: rgb(0, 79, 144)
+  typography:
+    font_size:
+      body: 10pt
+      name: 22pt
+  sections:
+    space_between_regular_entries: 0.32cm
+    space_between_text_based_entries: 0.12cm
+
+locale:
+  language: english
+  present: Present
+  last_updated: Last updated
