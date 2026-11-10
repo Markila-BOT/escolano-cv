@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1088 640" width="1088" height="640">
+  <style>
+    text { font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Microsoft YaHei', 'Microsoft JhengHei', 'SimHei', sans-serif; }
+  </style>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2563eb"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#dc2626"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#16a34a"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ea580c"/>
+    </marker>
+  </defs>
+  <rect width="1088" height="640" fill="#ffffff"/>
+<text x="40" y="36" text-anchor="start" fill="#111827" font-size="20" font-weight="600">OMA BFF, Apollo Gateway to GraphOS Router</text>
+<text x="40" y="60" text-anchor="start" fill="#6b7280" font-size="13" font-weight="400">The page marks the code migration complete, and still lists Studio, publish, deploy, and client cutover as open.</text>
+<rect x="36" y="88" width="490" height="500" rx="8" ry="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="281" y="120" text-anchor="middle" fill="#111827" font-size="16" font-weight="600">Before</text>
+<rect x="106" y="148" width="350" height="64" rx="8" ry="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="281" y="176" text-anchor="middle" fill="#111827" font-size="14" font-weight="600">Mobile apps</text>
+<text x="281" y="196" text-anchor="middle" fill="#6b7280" font-size="12" font-weight="400">GraphQL</text>
+<line x1="281" y1="212" x2="281" y2="248" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+<rect x="106" y="252" width="350" height="64" rx="8" ry="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="281" y="280" text-anchor="middle" fill="#111827" font-size="14" font-weight="600">NestJS process</text>
+<text x="281" y="300" text-anchor="middle" fill="#6b7280" font-size="12" font-weight="400">Apollo Gateway inside the app</text>
+<line x1="281" y1="316" x2="281" y2="352" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+<rect x="106" y="356" width="350" height="64" rx="8" ry="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="281" y="384" text-anchor="middle" fill="#111827" font-size="14" font-weight="600">Backend APIs</text>
+<text x="281" y="404" text-anchor="middle" fill="#6b7280" font-size="12" font-weight="400">Gateway, Potato, and the rest</text>
+<rect x="562" y="88" width="490" height="500" rx="8" ry="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5"/>
+<text x="807" y="120" text-anchor="middle" fill="#111827" font-size="16" font-weight="600">After</text>
+<rect x="632" y="148" width="350" height="64" rx="8" ry="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="807" y="176" text-anchor="middle" fill="#111827" font-size="14" font-weight="600">Mobile apps</text>
+<text x="807" y="196" text-anchor="middle" fill="#6b7280" font-size="12" font-weight="400">GraphQL, pointed at the router</text>
+<line x1="807" y1="212" x2="807" y2="248" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+<rect x="632" y="252" width="350" height="64" rx="8" ry="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="807" y="280" text-anchor="middle" fill="#111827" font-size="14" font-weight="600">Apollo Router, port 4000</text>
+<text x="807" y="300" text-anchor="middle" fill="#6b7280" font-size="12" font-weight="400">Rust process, GraphOS</text>
+<line x1="807" y1="316" x2="807" y2="352" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+<rect x="632" y="356" width="350" height="64" rx="8" ry="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="807" y="384" text-anchor="middle" fill="#111827" font-size="14" font-weight="600">NestJS subgraph, port 3000</text>
+<text x="807" y="404" text-anchor="middle" fill="#6b7280" font-size="12" font-weight="400">@apollo/subgraph, gateway package removed</text>
+<line x1="807" y1="420" x2="807" y2="456" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+<rect x="632" y="460" width="350" height="64" rx="8" ry="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="807" y="488" text-anchor="middle" fill="#111827" font-size="14" font-weight="600">Backend APIs</text>
+<text x="807" y="508" text-anchor="middle" fill="#6b7280" font-size="12" font-weight="400">REST, unchanged</text>
+</svg>

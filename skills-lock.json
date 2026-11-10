@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "skills": {
+    "claim-check": {
+      "source": "Remotivated/job-hunt-skills",
+      "sourceType": "github",
+      "skillPath": "plugins/job-hunt-skills/skills/claim-check/SKILL.md",
+      "computedHash": "a37c01a83bd9ab0e0f34dc05398bb85f3164f8988fa62fc75fb69f9aae9493b6",
+      "installMode": "copy"
+    },
+    "company-research": {
+      "source": "Remotivated/job-hunt-skills",
+      "sourceType": "github",
+      "skillPath": "plugins/job-hunt-skills/skills/company-research/SKILL.md",
+      "computedHash": "5d5c85f01f18728a259ad4d6cfa5f51c05e7dc6104a523b1fe8d1121f4b22246",
+      "installMode": "copy"
+    },
+    "cover-letter": {
+      "source": "Remotivated/job-hunt-skills",
+      "sourceType": "github",
+      "skillPath": "plugins/job-hunt-skills/skills/cover-letter/SKILL.md",
+      "computedHash": "c35d203edf45d1ac360ebbdeed92009af3a581a809566ff31cb98bc016c912b2",
+      "installMode": "copy"
+    },
+    "get-started": {
+      "source": "Remotivated/job-hunt-skills",
+      "sourceType": "github",
+      "skillPath": "plugins/job-hunt-skills/skills/get-started/SKILL.md",
+      "computedHash": "125b130e213deb289fc002c0529b6ad888ae370349022d6c58b1e3dc6dc9dcc7",
+      "installMode": "copy"
+    },
+    "interview-coach": {
+      "source": "Remotivated/job-hunt-skills",
+      "sourceType": "github",
+      "skillPath": "plugins/job-hunt-skills/skills/interview-coach/SKILL.md",
+      "computedHash": "38a788d1297e4ee7a8a2f8f587442e1e95a4ebb7bda554967b9a875d0b62ae37",
+      "installMode": "copy"
+    },
+    "interviewing": {
+      "source": "Remotivated/job-hunt-skills",
+      "sourceType": "github",
+      "skillPath": "plugins/job-hunt-skills/skills/interviewing/SKILL.md",
+      "computedHash": "334438125d1ca39b9b90ee22b9e67355c8a6fb8cb2cd6733a761b3464f43f50c",
+      "installMode": "copy"
+    },
+    "linkedin-optimizer": {
+      "source": "Remotivated/job-hunt-skills",
+      "sourceType": "github",
+      "skillPath": "plugins/job-hunt-skills/skills/linkedin-optimizer/SKILL.md",
+      "computedHash": "c4b50ab6fb811bf093c279cfe4ffb04584fe20ac7b3dc3aa41d0c22ad1836da7",
+      "installMode": "copy"
+    },
+    "opportunity-evaluator": {
+      "source": "Remotivated/job-hunt-skills",
+      "sourceType": "github",
+      "skillPath": "plugins/job-hunt-skills/skills/opportunity-evaluator/SKILL.md",
+      "computedHash": "dc04e07ca1c3bda98392e3cbca412739a8aa3c91e5454483b9c3d83b2e8e51f2",
+      "installMode": "copy"
+    },
+    "proof-asset-creator": {
+      "source": "Remotivated/job-hunt-skills",
+      "sourceType": "github",
+      "skillPath": "plugins/job-hunt-skills/skills/proof-asset-creator/SKILL.md",
+      "computedHash": "864a8cd4eaefc15938665367f0433604b04e1c44dcc2881a2723a397165fecde",
+      "installMode": "copy"
+    },
+    "resume-auditor": {
+      "source": "Remotivated/job-hunt-skills",
+      "sourceType": "github",
+      "skillPath": "plugins/job-hunt-skills/skills/resume-auditor/SKILL.md",
+      "computedHash": "7ef0bad6f72c6f66ed715684bb9b1d31e53b2bdaacdfd5f1198b3e3b5c829633",
+      "installMode": "copy"
+    },
+    "resume-builder": {
+      "source": "Remotivated/job-hunt-skills",
+      "sourceType": "github",
+      "skillPath": "plugins/job-hunt-skills/skills/resume-builder/SKILL.md",
+      "computedHash": "f93f8888ea261bd4f4c3b7b27503563f4d53b9309a92c9c993123cd1d88049e2",
+      "installMode": "copy"
+    },
+    "resume-tailor": {
+      "source": "Remotivated/job-hunt-skills",
+      "sourceType": "github",
+      "skillPath": "plugins/job-hunt-skills/skills/resume-tailor/SKILL.md",
+      "computedHash": "de1e54e11a85ee75dafd50a4d033235fad09ce776d19ab582ea89a1835668f81",
+      "installMode": "copy"
+    }
+  }
+}

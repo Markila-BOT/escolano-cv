@@ -37,3 +37,13 @@ next-env.d.ts
 
 # ide
 .idea
+
+# Job Hunt Skills state. Personal application files stay local.
+my-documents/**
+!my-documents/.gitkeep
+!my-documents/applications/
+!my-documents/applications/.gitkeep
+!my-documents/reports/
+!my-documents/reports/.gitkeep
+!my-documents/proof-assets/
+!my-documents/proof-assets/.gitkeep

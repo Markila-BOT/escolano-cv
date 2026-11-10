@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1088 780" width="1088" height="780">
+  <style>
+    text { font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Microsoft YaHei', 'Microsoft JhengHei', 'SimHei', sans-serif; }
+  </style>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2563eb"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#dc2626"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#16a34a"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ea580c"/>
+    </marker>
+  </defs>
+  <rect width="1088" height="780" fill="#ffffff"/>
+<text x="40" y="36" text-anchor="start" fill="#111827" font-size="20" font-weight="600">State management, January 2022</text>
+<text x="40" y="58" text-anchor="start" fill="#6b7280" font-size="13" font-weight="400">One library and one mental model for WealthPark frontend apps.</text>
+<text x="40" y="78" text-anchor="start" fill="#6b7280" font-size="13" font-weight="400">Problems named: prop drilling, performance, re-renders, mental models.</text>
+<rect x="36" y="98" width="168" height="44" rx="8" ry="8" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="120" y="125" text-anchor="middle" fill="#111827" font-size="13" font-weight="600">Lens</text>
+<rect x="216" y="98" width="200" height="44" rx="8" ry="8" fill="#faf5ff" stroke="#ddd6fe" stroke-width="1.5"/>
+<text x="316" y="125" text-anchor="middle" fill="#111827" font-size="15" font-weight="600">XState</text>
+<rect x="428" y="98" width="200" height="44" rx="8" ry="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2.5"/>
+<text x="528" y="125" text-anchor="middle" fill="#111827" font-size="15" font-weight="600">Zustand</text>
+<rect x="640" y="98" width="200" height="44" rx="8" ry="8" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+<text x="740" y="125" text-anchor="middle" fill="#111827" font-size="15" font-weight="600">Jotai</text>
+<rect x="852" y="98" width="200" height="44" rx="8" ry="8" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
+<text x="952" y="125" text-anchor="middle" fill="#111827" font-size="15" font-weight="600">Valtio</text>
+<rect x="36" y="154" width="168" height="46" rx="8" ry="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="120" y="182" text-anchor="middle" fill="#111827" font-size="12" font-weight="600">Principle</text>
+<rect x="216" y="154" width="200" height="46" rx="8" ry="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+<text x="316" y="182" text-anchor="middle" fill="#111827" font-size="13" font-weight="400">State machines</text>
+<rect x="428" y="154" width="200" height="46" rx="8" ry="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="528" y="182" text-anchor="middle" fill="#111827" font-size="13" font-weight="400">Flux</text>
+<rect x="640" y="154" width="200" height="46" rx="8" ry="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+<text x="740" y="182" text-anchor="middle" fill="#111827" font-size="13" font-weight="400">Atoms</text>
+<rect x="852" y="154" width="200" height="46" rx="8" ry="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+<text x="952" y="182" text-anchor="middle" fill="#111827" font-size="13" font-weight="400">Proxy</text>
+<rect x="36" y="206" width="168" height="46" rx="8" ry="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="120" y="234" text-anchor="middle" fill="#111827" font-size="12" font-weight="600">Closest to</text>
+<rect x="216" y="206" width="200" height="46" rx="8" ry="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+<text x="316" y="234" text-anchor="middle" fill="#111827" font-size="13" font-weight="400">Complex logic</text>
+<rect x="428" y="206" width="200" height="46" rx="8" ry="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="528" y="234" text-anchor="middle" fill="#111827" font-size="13" font-weight="400">Redux</text>
+<rect x="640" y="206" width="200" height="46" rx="8" ry="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+<text x="740" y="234" text-anchor="middle" fill="#111827" font-size="13" font-weight="400">Recoil</text>
+<rect x="852" y="206" width="200" height="46" rx="8" ry="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+<text x="952" y="234" text-anchor="middle" fill="#111827" font-size="13" font-weight="400">MobX</text>
+<rect x="36" y="258" width="168" height="46" rx="8" ry="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="120" y="286" text-anchor="middle" fill="#111827" font-size="12" font-weight="600">Job on the page</text>
+<rect x="216" y="258" width="200" height="46" rx="8" ry="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+<text x="316" y="286" text-anchor="middle" fill="#111827" font-size="13" font-weight="400">Hard flows</text>
+<rect x="428" y="258" width="200" height="46" rx="8" ry="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="528" y="286" text-anchor="middle" fill="#111827" font-size="13" font-weight="400">Global store</text>
+<rect x="640" y="258" width="200" height="46" rx="8" ry="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+<text x="740" y="286" text-anchor="middle" fill="#111827" font-size="13" font-weight="400">Context-like</text>
+<rect x="852" y="258" width="200" height="46" rx="8" ry="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+<text x="952" y="286" text-anchor="middle" fill="#111827" font-size="13" font-weight="400">Observable</text>
+<rect x="36" y="310" width="168" height="46" rx="8" ry="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="120" y="338" text-anchor="middle" fill="#111827" font-size="12" font-weight="600">Mark's call</text>
+<rect x="216" y="310" width="200" height="46" rx="8" ry="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+<rect x="428" y="310" width="200" height="46" rx="8" ry="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="528" y="338" text-anchor="middle" fill="#111827" font-size="13" font-weight="600">Chosen</text>
+<rect x="640" y="310" width="200" height="46" rx="8" ry="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+<rect x="852" y="310" width="200" height="46" rx="8" ry="8" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+<rect x="36" y="362" width="168" height="46" rx="8" ry="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
+<text x="120" y="390" text-anchor="middle" fill="#111827" font-size="12" font-weight="600">William, same page</text>
+<rect x="216" y="362" width="200" height="46" rx="8" ry="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+<rect x="428" y="362" width="200" height="46" rx="8" ry="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="528" y="390" text-anchor="middle" fill="#111827" font-size="13" font-weight="400">Global store</text>
+<rect x="640" y="362" width="200" height="46" rx="8" ry="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+<text x="740" y="390" text-anchor="middle" fill="#111827" font-size="13" font-weight="400">Context-like</text>
+<rect x="852" y="362" width="200" height="46" rx="8" ry="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+<text x="952" y="390" text-anchor="middle" fill="#111827" font-size="13" font-weight="400">Different jobs</text>
+<rect x="36" y="430" width="640" height="310" rx="8" ry="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="56" y="458" text-anchor="start" fill="#111827" font-size="15" font-weight="600">Why Zustand, in his words</text>
+<text x="56" y="492" text-anchor="start" fill="#111827" font-size="14" font-weight="400">1  Same method as Redux, so the learning curve is short.</text>
+<text x="56" y="522" text-anchor="start" fill="#111827" font-size="14" font-weight="400">2  Loose coupling when the app is scaled up or down.</text>
+<text x="56" y="552" text-anchor="start" fill="#111827" font-size="14" font-weight="400">3  A lighter package than the others he compared.</text>
+<text x="56" y="582" text-anchor="start" fill="#111827" font-size="14" font-weight="400">4  Immer is a skill worth having once it is learned.</text>
+<text x="56" y="612" text-anchor="start" fill="#111827" font-size="14" font-weight="400">5  A selector hook keeps a later move small,</text>
+<text x="56" y="642" text-anchor="start" fill="#111827" font-size="14" font-weight="400">    including a move back to React context.</text>
+<text x="56" y="672" text-anchor="start" fill="#111827" font-size="14" font-weight="400">6  Data flows one way.</text>
+<rect x="692" y="430" width="360" height="148" rx="8" ry="8" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+<text x="712" y="458" text-anchor="start" fill="#111827" font-size="14" font-weight="600">William, on the same page</text>
+<text x="712" y="488" text-anchor="start" fill="#111827" font-size="14" font-weight="400">Zustand for the global store.</text>
+<text x="712" y="512" text-anchor="start" fill="#111827" font-size="14" font-weight="400">Jotai where context would have</text>
+<text x="712" y="536" text-anchor="start" fill="#111827" font-size="14" font-weight="400">been used. He would use both.</text>
+<rect x="692" y="592" width="360" height="148" rx="8" ry="8" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
+<text x="712" y="620" text-anchor="start" fill="#111827" font-size="14" font-weight="600">What he later wrote down</text>
+<text x="712" y="650" text-anchor="start" fill="#111827" font-size="14" font-weight="400">October 2023, Owner Web App.</text>
+<text x="712" y="674" text-anchor="start" fill="#111827" font-size="14" font-weight="400">The store that shipped was Jotai,</text>
+<text x="712" y="698" text-anchor="start" fill="#111827" font-size="14" font-weight="400">not Zustand. See the next diagram.</text>
+</svg>

@@ -6,9 +6,9 @@ export const RESUME_DATA = {
   location: "Quezon City, Philippines",
   locationLink: "https://maps.app.goo.gl/LxsubTvFfn3x2ksf8",
   about:
-    "Senior Software Engineer with a strong focus on frontend technologies.",
+    "Senior Full-Stack Engineer (AI Engineer).",
   summary:
-    "I played a significant role in the development of a web application that serves millions of users globally. That’s when I decided to focus on the WEB because I believe in WEB development, I can serve more people that want to access valuable and necessary information. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over a decade of experience in working remotely with companies all around the world.",
+    "I am a Senior Full-Stack Engineer with 12 years of production experience, working remotely with teams in Japan and Australia. At WealthPark I wrote the UI process when the team had no full kit, and I designed the shared React and TypeScript components the operator, owner, and valuation apps use. On the Owner Web App, state availability improved by up to 2698%. I replaced Figma as the mockup source with three skills that write the spec, annotate the page in Vercel v0, walk QA through the checks, and attach the files to the ticket.",
   avatarUrl: "https://avatars.githubusercontent.com/u/33077253?v=4",
   personalWebsiteUrl: "https://escolano-portfolio.vercel.app/",
   contact: {
@@ -44,7 +44,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: "Present",
       description:
-        "Built UI components in React to help property owners and property managers collaborate with ease, designed and implemented a design system to be used across all UI platforms within Wealth-Park business, managing and conducting quick iteration for deployment across all environments.",
+        "I own features for operators, owners, and the marketing customer success managers use. I wrote the UI process when the team had no full kit, and I designed the shared React and TypeScript components the operator, owner, and valuation apps use. Chat, documents, and activity sit on the same records. On the Owner Web App I rebuilt the store and the request cache, and state availability improved by up to 2698%. I replaced Figma as the mockup source with three skills: they write the spec the team implements from, annotate a built or mock page in Vercel v0 and walk QA through the manual checks in agent-browser, and attach those files to the ticket. A person reviews generated code before it is merged. I mentor juniors on design and testing.",
     },
     {
       company: "MerchantSpring",
@@ -54,7 +54,7 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2021",
       description:
-        "Applying and using public/private APIs that will gather merchant's shop pieces of information from different marketplaces like Shopify, Amazon, eBay, Walmart, etc. Unit testing and integration testing with Jest and Cypress.",
+        "I architected the seller analytics product agencies and investors use across accounts: a React and Material UI design system, a Node.js and Express service per marketplace, and separate data per merchant account. Amazon, eBay, Walmart, and Shopify shop data goes into per-account models in MySQL and MongoDB. I shipped a faster login form and a responsive landing page, and demoed against live marketplace data, including the cases that failed in staging.",
     },
     {
       company: "X-Climb",
@@ -64,7 +64,7 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2021",
       description:
-        "Focusing on terms of planning, designing, and implementing the web application project. conducting technical reviews and modifications in the business and technical side of the project, solo and hands-on engineer for coding and integrating to the serverless platform.",
+        "Solo hands-on engineer, then lead. I planned, designed, and built the web app, integrated it on a serverless platform, and changed scope with the client on the business and technical side.",
     },
     {
       company: "Rakuten",
@@ -74,7 +74,7 @@ export const RESUME_DATA = {
       start: "2018",
       end: "2020",
       description:
-        "Create and develop highly reusable components for the search and booking functionalities of the web application, lead a team that will focus on the animation, create test scenarios that will cover functionalities. Unit, Integration, and Snapshot testing.",
+        "I built reusable React search and booking components for Rakuten Travel, where suppliers list offers and consumers book. I led the animation work on the loading and selection components, and covered booking paths with unit, integration, and snapshot tests.",
     },
     {
       company: "BOSCH",
@@ -115,6 +115,15 @@ export const RESUME_DATA = {
     "Node.js",
     "GraphQL",
     "WebSocket",
+    "AWS (S3, SES, SQS, SNS)",
+    "Azure DevOps",
+    "Stripe",
+    "Design Systems",
+    "React Aria",
+    "TypeORM",
+    "Playwright",
+    "Vercel v0",
+    "agent-browser",
   ],
   projects: [
     {
@@ -129,6 +138,13 @@ export const RESUME_DATA = {
         "Zustand",
         "NestJS",
         "GraphQL",
+        "AWS",
+        "Azure DevOps",
+        "Stripe",
+        "Design System",
+        "React Aria",
+        "TypeORM",
+        "Playwright",
       ],
       description:
         "Valuation is the application of assessing the worth or value of a property.",
@@ -149,6 +165,13 @@ export const RESUME_DATA = {
         "Jotai",
         "Webpack",
         "GraphQL",
+        "AWS",
+        "Azure DevOps",
+        "Stripe",
+        "Design System",
+        "React Aria",
+        "TypeORM",
+        "Playwright",
       ],
       description:
         "By centralizing document management, the Owner Application reduces reliance on traditional paper-based communication method.",
@@ -166,6 +189,13 @@ export const RESUME_DATA = {
         "Redux",
         "Vite",
         "GraphQL",
+        "AWS",
+        "Azure DevOps",
+        "Stripe",
+        "Design System",
+        "React Aria",
+        "TypeORM",
+        "Playwright",
       ],
       description:
         "Provides comprehensive information on various activities within a property, including expenses, income, and general updates.",
@@ -176,7 +206,20 @@ export const RESUME_DATA = {
     },
     {
       title: "Chat Admin",
-      techStack: ["JavaScript", "React", "Material UI", "Redux", "Websockets"],
+      techStack: [
+        "JavaScript",
+        "React",
+        "Material UI",
+        "Redux",
+        "Websockets",
+        "AWS",
+        "Azure DevOps",
+        "Stripe",
+        "Design System",
+        "React Aria",
+        "TypeORM",
+        "Playwright",
+      ],
       description:
         "Serves as the instant messaging counterpart, providing real-time responses, file sharing capabilities, and robust organization features.",
       link: {
@@ -211,9 +254,15 @@ export const RESUME_DATA = {
         "Webpack",
         "Docker",
         "Terraform",
+        "AWS",
+        "Stripe",
+        "Design System",
+        "React Aria",
+        "TypeORM",
+        "Playwright",
       ],
       description:
-        "Powerful analytics and reporting platform designed for agencies, vendors, and investors managing multiple e-commerce brands.",
+        "Agencies and investors read marketplace analytics across seller accounts.",
       link: {
         label: "merchantspring",
         href: "https://mm.merchantspring.io/",

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1088 700" width="1088" height="700">
+  <style>
+    text { font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Microsoft YaHei', 'Microsoft JhengHei', 'SimHei', sans-serif; }
+  </style>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2563eb"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#dc2626"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#16a34a"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ea580c"/>
+    </marker>
+  </defs>
+  <rect width="1088" height="700" fill="#ffffff"/>
+<text x="40" y="36" text-anchor="start" fill="#111827" font-size="20" font-weight="600">How a change gets out</text>
+<text x="40" y="60" text-anchor="start" fill="#6b7280" font-size="13" font-weight="400">Two runbooks. The branch page was someone else's. The preview section and the schema page are his.</text>
+<rect x="36" y="88" width="490" height="580" rx="8" ry="8" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
+<text x="281" y="118" text-anchor="middle" fill="#111827" font-size="16" font-weight="600">Preview staging, August 2025</text>
+<rect x="91" y="144" width="380" height="58" rx="8" ry="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="281" y="168" text-anchor="middle" fill="#111827" font-size="14" font-weight="600">Name the branch</text>
+<text x="281" y="188" text-anchor="middle" fill="#6b7280" font-size="12" font-weight="400">feature/*  or  main-feature/*</text>
+<line x1="281" y1="202" x2="281" y2="224" stroke="#ea580c" stroke-width="1.5" marker-end="url(#arrow-orange)"/>
+<rect x="91" y="228" width="380" height="58" rx="8" ry="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="281" y="252" text-anchor="middle" fill="#111827" font-size="14" font-weight="600">Set the pipeline variable</text>
+<text x="281" y="272" text-anchor="middle" fill="#6b7280" font-size="12" font-weight="400">CI_ENV=stag-previews-alpha</text>
+<line x1="281" y1="286" x2="281" y2="308" stroke="#ea580c" stroke-width="1.5" marker-end="url(#arrow-orange)"/>
+<rect x="91" y="312" width="380" height="58" rx="8" ry="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="281" y="336" text-anchor="middle" fill="#111827" font-size="14" font-weight="600">Preview environment</text>
+<text x="281" y="356" text-anchor="middle" fill="#6b7280" font-size="12" font-weight="400">Isolated from dev</text>
+<line x1="281" y1="370" x2="281" y2="392" stroke="#ea580c" stroke-width="1.5" marker-end="url(#arrow-orange)"/>
+<rect x="91" y="396" width="380" height="58" rx="8" ry="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="281" y="420" text-anchor="middle" fill="#111827" font-size="14" font-weight="600">Review</text>
+<text x="281" y="440" text-anchor="middle" fill="#6b7280" font-size="12" font-weight="400">QA, design, stakeholders</text>
+<line x1="281" y1="454" x2="281" y2="476" stroke="#ea580c" stroke-width="1.5" marker-end="url(#arrow-orange)"/>
+<rect x="91" y="480" width="380" height="58" rx="8" ry="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="281" y="504" text-anchor="middle" fill="#111827" font-size="14" font-weight="600">Then merge</text>
+<text x="281" y="524" text-anchor="middle" fill="#6b7280" font-size="12" font-weight="400">Only the release goes to dev</text>
+<rect x="562" y="88" width="490" height="580" rx="8" ry="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5"/>
+<text x="807" y="118" text-anchor="middle" fill="#111827" font-size="16" font-weight="600">Schema publish, October 2025</text>
+<rect x="617" y="144" width="380" height="58" rx="8" ry="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="807" y="168" text-anchor="middle" fill="#111827" font-size="14" font-weight="600">Run production</text>
+<text x="807" y="188" text-anchor="middle" fill="#6b7280" font-size="12" font-weight="400">OMA BFF or Workflow BFF</text>
+<line x1="807" y1="202" x2="807" y2="224" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+<rect x="617" y="228" width="380" height="58" rx="8" ry="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="807" y="252" text-anchor="middle" fill="#111827" font-size="14" font-weight="600">Open the Jest job</text>
+<text x="807" y="272" text-anchor="middle" fill="#6b7280" font-size="12" font-weight="400">Download schema.gql</text>
+<line x1="807" y1="286" x2="807" y2="308" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+<rect x="617" y="312" width="380" height="58" rx="8" ry="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="807" y="336" text-anchor="middle" fill="#111827" font-size="14" font-weight="600">Apollo Studio</text>
+<text x="807" y="356" text-anchor="middle" fill="#6b7280" font-size="12" font-weight="400">Upload, replace the schema</text>
+<line x1="807" y1="370" x2="807" y2="392" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+<rect x="617" y="396" width="380" height="58" rx="8" ry="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="807" y="420" text-anchor="middle" fill="#111827" font-size="14" font-weight="600">If the check failed</text>
+<text x="807" y="440" text-anchor="middle" fill="#6b7280" font-size="12" font-weight="400">Retry schema-checking:production</text>
+<line x1="807" y1="454" x2="807" y2="476" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+<rect x="617" y="480" width="380" height="58" rx="8" ry="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="807" y="504" text-anchor="middle" fill="#111827" font-size="14" font-weight="600">Finish the pipeline</text>
+<text x="807" y="524" text-anchor="middle" fill="#6b7280" font-size="12" font-weight="400">Schema and check agree</text>
+</svg>

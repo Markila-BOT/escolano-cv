@@ -4,9 +4,9 @@
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
   name: "Mark Escolano",
-  title: "Mark Escolano - Full-Stack Engineer",
+  title: "Mark Escolano - Senior Full-Stack Engineer (AI Engineer)",
   footer: context { [#emph[Mark Escolano -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated Oct 2026] ],
+  top-note: [ #emph[Last updated Nov 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,15 +80,15 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 10,
-    day: 2,
+    month: 11,
+    day: 4,
   ),
 )
 
 
 = Mark Escolano
 
-  #headline([Senior Full-Stack Engineer])
+  #headline([Senior Full-Stack Engineer (AI Engineer)])
 
 #connections(
   [Metro Manila, Philippines],
@@ -102,9 +102,9 @@
 
 == Summary
 
-I am a full-stack engineer with 12 years of production experience, working remotely with teams in Japan and Australia. I take a feature from the data model and API through the React UI, then change it after people use it.
+I am a Senior Full-Stack Engineer with 12 years of production experience, working remotely with teams in Japan and Australia. At WealthPark I wrote the UI process when the team had no full kit, and I designed the shared React and TypeScript components the operator, owner, and valuation apps use. PostgreSQL-backed GraphQL and REST keep chat, documents, and activity on the same records.
 
-Recent work is React, Next.js, and Material UI on the frontend, with Node.js, NestJS, REST, and GraphQL on the backend. I watch query cost and caching when a page is slow. I use Claude Code and Cursor daily, and a person reviews the output before it ships.
+I take a feature from the data model and API through the React UI. On the Owner Web App, state availability improved by up to 2698\%. I replaced Figma as the mockup source with three skills that write the spec, annotate the page in Vercel v0, walk QA through the checks, and attach the files to the ticket. Recent work is React, Next.js, Node.js, NestJS, REST, and GraphQL.
 
 == Experience
 
@@ -118,19 +118,15 @@ Recent work is React, Next.js, and Material UI on the frontend, with Node.js, Ne
 
   ],
   main-column-second-row: [
-    - Own features across the property operations product: operators, owners, documents, chat, activities, and marketing. Talk with the people who use it, cut scope, and ship the version they will actually open.
+    - Own features across the property operations product: operators, owners, documents, chat, activities, and marketing customer success managers use. Talk with the people who use it, cut scope, and ship the version they will actually open.
 
-    - Design the data model and the API with the UI. PostgreSQL-backed GraphQL and REST keep chat, documents, and activity streams on the same records.
+    - Wrote the UI process when the team had no full kit, and designed the shared React and TypeScript components the operator, owner, and valuation apps use. PostgreSQL-backed GraphQL and REST keep chat, documents, and activity on the same records.
 
-    - Built the property valuation app in React and Next.js over a NestJS and GraphQL API, for assessing what a property is worth.
+    - Built the property valuation app in React and Next.js over a NestJS and GraphQL API. Shipped Workflow so operators can review expenses, income, and property updates. Built Chat Admin so agents can message owners, share files, and create activities over WebSocket and REST.
 
-    - Shipped Workflow as activity streams for expenses, income, and property updates, with review and approval steps in the UI.
+    - On the Owner Web App, extra fetches and cache misses were slowing the state the screens read. Rebuilt the store and the request cache. State availability improved by up to 2698\%.
 
-    - Built Chat Admin in React, Material UI, and Redux: live messaging, file sharing, and activity creation over WebSocket and REST.
-
-    - Traced slow store-management pages to extra fetches and cache misses, then rebuilt the cache. Load time dropped by up to 2698\%.
-
-    - Shared React and TypeScript components across the operator, owner, and valuation apps. Use Claude Code, Cursor, and Codex, with review before generated code is merged.
+    - Replaced Figma as the mockup source, which cut that cost. I added three skills the team uses: one writes the spec people implement from, one annotates a built or mock page in Vercel v0 and walks QA through the manual checks in agent-browser, and one attaches those files to the ticket. A person reviews generated code before it is merged. I mentor juniors on design and testing.
 
   ],
 )
@@ -145,11 +141,11 @@ Recent work is React, Next.js, and Material UI on the frontend, with Node.js, Ne
 
   ],
   main-column-second-row: [
-    - Shipped the seller analytics product end to end: React and Material UI on the front, Node.js and Express services behind it.
+    - Architected the seller analytics product agencies and investors use across accounts: a React and Material UI design system, a Node.js and Express service per marketplace, and separate data per merchant account.
 
-    - Ingested shop data from Amazon, eBay, Walmart, and Shopify, mapped it into per-account models, and kept each merchant's data separate in MySQL and MongoDB.
+    - Ingested shop data from Amazon, eBay, Walmart, and Shopify through public and private APIs, and mapped it into per-account models in MySQL and MongoDB.
 
-    - Ran the services in Docker with Terraform-managed deploys. Demoed against live marketplace data, including the cases that failed in staging.
+    - Shipped a faster login form and a responsive landing page. Demoed against live marketplace data, including the cases that failed in staging.
 
   ],
 )
@@ -166,7 +162,7 @@ Recent work is React, Next.js, and Material UI on the frontend, with Node.js, Ne
   main-column-second-row: [
     - Solo engineer on a web product: gathered the requirements, designed the app, built it, and changed scope with the client as the product moved.
 
-    - Integrated the application on a serverless platform and kept delivery moving without a local team.
+    - Integrated the application on a serverless platform and shipped it without a local team.
 
   ],
 )
@@ -181,7 +177,7 @@ Recent work is React, Next.js, and Material UI on the frontend, with Node.js, Ne
 
   ],
   main-column-second-row: [
-    - Built reusable React search and booking components for a live travel product. Covered booking paths with unit, integration, and snapshot tests.
+    - Built reusable React search and booking components for Rakuten Travel, where suppliers list offers and consumers book. Led the animation work on the loading and selection components. Covered booking paths with unit, integration, and snapshot tests.
 
   ],
 )
@@ -196,7 +192,9 @@ Recent work is React, Next.js, and Material UI on the frontend, with Node.js, Ne
 
   ],
   main-column-second-row: [
-    - Bosch: VIN lookup and CAN diagnostics against a central vehicle database for Nissan, Mitsubishi, and Renault (TDD, GRADE-X).
+    - Bosch: manual VIN lookup and CAN diagnostics for mechanics working on Nissan, Mitsubishi, and Renault vehicles (TDD, GRADE-X).
+
+    - NEC: network and traffic sniffer analysis, with unit, functional, and integration tests.
 
     - Denso: ECU software from detailed specs, including one spec that passed unit tests with zero defects on the first run.
 
@@ -215,7 +213,7 @@ Recent work is React, Next.js, and Material UI on the frontend, with Node.js, Ne
 
   ],
   main-column-second-row: [
-    - Operator messaging UI in React, Material UI, and Redux, with WebSocket updates and REST for files and activities.
+    - Agents message owners, share files, and create the activity from the same thread.
 
   ],
 )
@@ -230,7 +228,7 @@ Recent work is React, Next.js, and Material UI on the frontend, with Node.js, Ne
 
   ],
   main-column-second-row: [
-    - Property valuation app in React and Next.js, backed by NestJS and GraphQL.
+    - Property valuation app in React and Next.js over a NestJS and GraphQL API.
 
   ],
 )
@@ -245,7 +243,7 @@ Recent work is React, Next.js, and Material UI on the frontend, with Node.js, Ne
 
   ],
   main-column-second-row: [
-    - Expense, income, and property-update flows with operator review (React, Redux, GraphQL).
+    - Operators review expenses, income, and property updates before they go through.
 
   ],
 )
@@ -260,22 +258,22 @@ Recent work is React, Next.js, and Material UI on the frontend, with Node.js, Ne
 
   ],
   main-column-second-row: [
-    - Multi-account marketplace analytics (React, Material UI, Node.js, Express, MySQL, MongoDB, Docker).
+    - Agencies and investors read marketplace analytics across seller accounts.
 
   ],
 )
 
 == Skills
 
-#strong[Frontend:] React, Next.js, Material UI, Redux, TypeScript, JavaScript, responsive UI, Jest, Cypress
+#strong[Frontend:] React, Next.js, Material UI, React Aria, Redux, TypeScript, JavaScript, design systems, Playwright, Jest, Cypress
 
 #strong[Backend and APIs:] Node.js, NestJS, Express, REST, GraphQL, WebSocket, third-party API integrations
 
-#strong[Data and performance:] PostgreSQL, MySQL, MongoDB, SQL, relational modeling, query cost, caching
+#strong[Data and performance:] PostgreSQL, MySQL, MongoDB, TypeORM, SQL, relational modeling, query cost, caching
 
-#strong[Delivery:] Docker, Terraform, serverless, CI\/CD, remote product teams
+#strong[Cloud and payments:] AWS, Azure DevOps, Stripe, Docker, Terraform, CI\/CD
 
-#strong[AI tooling:] Claude Code, Cursor, Codex, MCP servers, review of generated code before merge
+#strong[AI tooling:] Claude Code, Cursor, Codex, Vercel v0, agent-browser, MCP servers, review of generated code before merge
 
 == Education
 
