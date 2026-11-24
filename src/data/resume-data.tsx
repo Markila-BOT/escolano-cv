@@ -5,10 +5,9 @@ export const RESUME_DATA = {
   initials: "ME",
   location: "Quezon City, Philippines",
   locationLink: "https://maps.app.goo.gl/LxsubTvFfn3x2ksf8",
-  about:
-    "Senior Full-Stack Engineer (AI Engineer).",
+  about: "Senior Full-Stack Engineer · React, TypeScript, Node.js",
   summary:
-    "I am a Senior Full-Stack Engineer with 12 years of production experience, working remotely with teams in Japan and Australia. At WealthPark I wrote the UI process when the team had no full kit, and I designed the shared React and TypeScript components the operator, owner, and valuation apps use. On the Owner Web App, state availability improved by up to 2698%. I replaced Figma as the mockup source with three skills that write the spec, annotate the page in Vercel v0, walk QA through the checks, and attach the files to the ticket.",
+    "I am a Senior Full-Stack Engineer with 12 years of production experience, remote for the last six with teams in Japan and Australia. I take a feature from the data model and API through the React UI, and I stay with it after it ships. At WealthPark I wrote the UI process when the team had no full kit, designed the shared React and TypeScript components the operator, owner, and valuation apps use, and mentor juniors on design and testing. On the Owner Web App I rebuilt the store and the request cache, and caching and speed improved by up to 2698%. I use AI tools every day and check their output: three skills write the spec, annotate the page in Vercel v0, and walk QA through the manual checks in agent-browser. A person reviews generated code before merge.",
   avatarUrl: "https://avatars.githubusercontent.com/u/33077253?v=4",
   personalWebsiteUrl: "https://escolano-portfolio.vercel.app/",
   contact: {
@@ -44,7 +43,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: "Present",
       description:
-        "I own features for operators, owners, and the marketing customer success managers use. I wrote the UI process when the team had no full kit, and I designed the shared React and TypeScript components the operator, owner, and valuation apps use. Chat, documents, and activity sit on the same records. On the Owner Web App I rebuilt the store and the request cache, and state availability improved by up to 2698%. I replaced Figma as the mockup source with three skills: they write the spec the team implements from, annotate a built or mock page in Vercel v0 and walk QA through the manual checks in agent-browser, and attach those files to the ticket. A person reviews generated code before it is merged. I mentor juniors on design and testing.",
+        "I own features for operators, owners, and the marketing customer success managers who use them. I talk with the people who use the product, cut scope, and ship the version they will actually open. I wrote the UI process when the team had no full kit, and I designed the shared React and TypeScript components the operator, owner, and valuation apps use. Chat, documents, and activity sit on the same records. On the Owner Web App I rebuilt the store and the request cache, and caching and speed improved by up to 2698%. I replaced Figma as the mockup source with three skills: they write the spec the team implements from, annotate a built or mock page in Vercel v0 and walk QA through the manual checks in agent-browser, and attach those files to the ticket. A person reviews generated code before it is merged. I mentor juniors on design and testing.",
     },
     {
       company: "MerchantSpring",
@@ -74,7 +73,7 @@ export const RESUME_DATA = {
       start: "2018",
       end: "2020",
       description:
-        "I built reusable React search and booking components for Rakuten Travel, where suppliers list offers and consumers book. I led the animation work on the loading and selection components, and covered booking paths with unit, integration, and snapshot tests.",
+        "I built reusable React search and booking components for Rakuten Travel, where suppliers list offers and consumers book. I led the animation work on the loading and selection components, and covered booking paths with unit, integration, and snapshot tests. I was on the payment team and worked on the credit-card component and its connection to the payment API behind it.",
     },
     {
       company: "BOSCH",
@@ -84,7 +83,7 @@ export const RESUME_DATA = {
       start: "2017",
       end: "2018",
       description:
-        "Implemented the manual vehicle identification feature, highly involved in very analyzed and extensive test-driven components, worked on GRADE-X technologies for making a data manipulation for diagnosing a vehicle.",
+        "I built manual VIN lookup and the connection from the diagnostic tool to the vehicle ECU over CAN and OBD-II, for mechanics working on Nissan, Mitsubishi, and Renault vehicles. The components were test-driven, with Selenium end-to-end tests on the web UI.",
     },
     {
       company: "NEC",
@@ -94,7 +93,7 @@ export const RESUME_DATA = {
       start: "2016",
       end: "2017",
       description:
-        "Design and implement sniffer function for Network/Traffic analysis of the project, creates and performs detailed unit, functional, and integration tests, make detailed designs more simple using test user scenarios.",
+        "I designed and built the sniffer for network and traffic analysis, wrote the unit, functional, and integration tests, and simplified the detailed designs with test user scenarios.",
     },
     {
       company: "Denso",
@@ -104,26 +103,43 @@ export const RESUME_DATA = {
       start: "2014",
       end: "2016",
       description:
-        "Creates software that corresponds to the standard specifications, create test cases for every single condition for multiple functions, creates and modifies documents based on the standard rule of coding and unit testing.",
+        "I wrote ECU software from detailed specs and a test case for every condition across several functions. One spec passed unit tests with zero defects on the first run. I kept the design and test documents to the team's coding standard.",
     },
   ],
   skills: [
-    "JavaScript",
     "TypeScript",
+    "JavaScript",
     "React/Next.js",
     "Angular",
     "Node.js",
+    "NestJS",
+    "Express",
     "GraphQL",
+    "REST",
     "WebSocket",
+    "PostgreSQL",
+    "MySQL",
+    "MongoDB",
+    "Supabase",
+    "TypeORM",
+    "Python",
+    "Django REST",
     "AWS (S3, SES, SQS, SNS)",
     "Azure DevOps",
     "Stripe",
     "Design Systems",
     "React Aria",
-    "TypeORM",
+    "Material UI",
+    "Storybook",
     "Playwright",
+    "Vitest",
+    "Cypress",
+    "Claude Code",
+    "Cursor",
+    "Codex",
     "Vercel v0",
     "agent-browser",
+    "MCP servers",
   ],
   projects: [
     {
@@ -146,8 +162,7 @@ export const RESUME_DATA = {
         "TypeORM",
         "Playwright",
       ],
-      description:
-        "Valuation is the application of assessing the worth or value of a property.",
+      description: "Operators assess what a property is worth.",
       link: {
         label: "valuation",
         href: "https://demo.business.wealth-park.com/",
@@ -174,7 +189,7 @@ export const RESUME_DATA = {
         "Playwright",
       ],
       description:
-        "By centralizing document management, the Owner Application reduces reliance on traditional paper-based communication method.",
+        "Owners read documents, message the operator, and follow activity on their property in one place.",
       link: {
         label: "owner web app",
         href: "https://owner.wealth-park.com/",
@@ -198,7 +213,7 @@ export const RESUME_DATA = {
         "Playwright",
       ],
       description:
-        "Provides comprehensive information on various activities within a property, including expenses, income, and general updates.",
+        "Operators review expenses, income, and property updates before they go through.",
       link: {
         label: "workflow",
         href: "https://demo.workflow.wealth-park.com/operation/",
@@ -221,7 +236,7 @@ export const RESUME_DATA = {
         "Playwright",
       ],
       description:
-        "Serves as the instant messaging counterpart, providing real-time responses, file sharing capabilities, and robust organization features.",
+        "Agents message owners, share files, and create the activity from the same thread.",
       link: {
         label: "chat-admin",
         href: "https://demo.wealth-park.com/webchat/",
@@ -230,12 +245,27 @@ export const RESUME_DATA = {
     {
       title: "Looking Glass",
       techStack: ["JavaScript", "React", "Cordova", "XCode"],
-      description:
-        "Fashion app offering personalized styling services tailored to individual style and preferences.",
+      description: "Fashion app with personalized styling for each client.",
       link: {
-        label: "chat-admin",
+        label: "looking glass",
         href: "https://lookingglasslifestyle.com/",
       },
+    },
+    {
+      title: "Truck Driver Guide",
+      techStack: ["Python", "Django REST", "TypeScript", "React", "Vercel"],
+      description:
+        "A Django REST API and a React and TypeScript client. The API builds an hours-of-service schedule with fuel and rest stops from a planned route.",
+      link: {
+        label: "truck driver guide",
+        href: "https://truck-driver-guide-web.vercel.app/",
+      },
+    },
+    {
+      title: "Agent Lender",
+      techStack: ["Rust", "SQLite", "Tauri", "TypeScript", "React"],
+      description:
+        "Desktop app for a lender's staff: borrowers, agent assignment, application review, and a printed contract for three loan types.",
     },
     {
       title: "MerchantSpring",
@@ -278,7 +308,7 @@ export const RESUME_DATA = {
         "Firebase",
       ],
       description:
-        "Redefines the way people connect and communicate, offering an immersive and feature-rich experience",
+        "A chat product in React and Redux, with Firebase behind it.",
       link: {
         label: "lagoon",
         href: "https://lagoon.chat/",
@@ -297,7 +327,7 @@ export const RESUME_DATA = {
         "Webpack",
       ],
       description:
-        "Provides a solution designed to revolutionize the way SaaS companies approach customer support and success",
+        "Customer support tooling for Asurion, built in React, Redux, and Material UI.",
       link: {
         label: "iris",
         href: "https://my.asurion.com/",
@@ -316,14 +346,14 @@ export const RESUME_DATA = {
         "Webpack",
       ],
       description:
-        "A premier online travel agency and a leading force in the Japanese travel industry",
+        "Search and booking for Rakuten Travel, where suppliers list offers and consumers book.",
       link: {
         label: "rakuten travel",
         href: "https://travel.rakuten.com/",
       },
     },
     {
-      title: "ADT(Alliance Diagnostic Tool)",
+      title: "ADT (Alliance Diagnostic Tool)",
       techStack: [
         "JavaScript",
         "Angular",
@@ -333,18 +363,18 @@ export const RESUME_DATA = {
         "Jest",
       ],
       description:
-        "ADT Tool brings unprecedented efficiency to the automotive diagnostic content lifecycle.",
+        "Automotive diagnostic content tool in Angular, used to keep diagnostic data current.",
     },
     {
       title: "ECUs Non-Toyota-Diesel",
       techStack: ["C", "Misra C", "GAIO Tech"],
-      description: "Focusing on advancing engine technology beyond vehicles",
+      description: "ECU software in MISRA C for non-Toyota diesel engines.",
     },
     {
       title: "Lawson Smart Report",
       techStack: ["Java", "Spring Tools Suite"],
       description:
-        "Offers a streamlined platform for designing and generating insightful reports with ease",
+        "Java report designer inside Infor Lawson, where users build reports from templates and change the layout.",
     },
   ],
 } as const;
