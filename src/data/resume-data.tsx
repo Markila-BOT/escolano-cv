@@ -124,6 +124,8 @@ export const RESUME_DATA = {
     "TypeORM",
     "Python",
     "Django REST",
+    "C#",
+    ".NET",
     "AWS (S3, SES, SQS, SNS)",
     "Azure DevOps",
     "Stripe",
@@ -241,6 +243,12 @@ export const RESUME_DATA = {
         label: "chat-admin",
         href: "https://demo.wealth-park.com/webchat/",
       },
+    },
+    {
+      title: "MatterWorx",
+      techStack: ["C#", ".NET", "PostgreSQL", "Next.js", "Azure DevOps"],
+      description:
+        "Vendor management system for healthcare staffing: programs, positions, shifts, timesheets, and invoices. I work in the invoice and timesheet services and their PostgreSQL migrations.",
     },
     {
       title: "Looking Glass",
