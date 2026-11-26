@@ -7,7 +7,7 @@ export const RESUME_DATA = {
   locationLink: "https://maps.app.goo.gl/LxsubTvFfn3x2ksf8",
   about: "Senior Full-Stack Engineer · React, TypeScript, Node.js",
   summary:
-    "I am a Senior Full-Stack Engineer with 12 years of production experience, remote for the last six with teams in Japan and Australia. I take a feature from the data model and API through the React UI, and I stay with it after it ships. At WealthPark I wrote the UI process when the team had no full kit, designed the shared React and TypeScript components the operator, owner, and valuation apps use, and mentor juniors on design and testing. On the Owner Web App I rebuilt the store and the request cache, and caching and speed improved by up to 2698%. I use AI tools every day and check their output: three skills write the spec, annotate the page in Vercel v0, and walk QA through the manual checks in agent-browser. A person reviews generated code before merge.",
+    "I am a Senior Full-Stack Engineer with 12 years of production experience, remote for the last six with teams in Japan and Australia. I take a feature from the data model and API through the React UI, and I stay with it after it ships. At WealthPark I wrote the UI process when the team had no full kit, designed the shared React and TypeScript components the property manager, owner, and valuation apps use, and mentor juniors on design and testing. On the Owner Web App I rebuilt the store and the request cache, and caching and speed improved by up to 2698%. I use AI tools every day and check their output: three skills write the spec, annotate the page in Vercel v0, and walk QA through the manual checks in agent-browser. A person reviews generated code before merge.",
   avatarUrl: "https://avatars.githubusercontent.com/u/33077253?v=4",
   personalWebsiteUrl: "https://escolano-portfolio.vercel.app/",
   contact: {
@@ -43,7 +43,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: "Present",
       description:
-        "I own features for operators, owners, and the marketing customer success managers who use them. I talk with the people who use the product, cut scope, and ship the version they will actually open. I wrote the UI process when the team had no full kit, and I designed the shared React and TypeScript components the operator, owner, and valuation apps use. Chat, documents, and activity sit on the same records. On the Owner Web App I rebuilt the store and the request cache, and caching and speed improved by up to 2698%. I replaced Figma as the mockup source with three skills: they write the spec the team implements from, annotate a built or mock page in Vercel v0 and walk QA through the manual checks in agent-browser, and attach those files to the ticket. A person reviews generated code before it is merged. I mentor juniors on design and testing.",
+        "I own features for property managers, owners, and the marketing customer success managers who use them. I talk with the people who use the product, cut scope, and ship the version they will actually open. I wrote the UI process when the team had no full kit, and I designed the shared React and TypeScript components the property manager, owner, and valuation apps use. Chat, documents, and activity sit on the same records. On the Owner Web App I rebuilt the store and the request cache, and caching and speed improved by up to 2698%. I replaced Figma as the mockup source with three skills: they write the spec the team implements from, annotate a built or mock page in Vercel v0 and walk QA through the manual checks in agent-browser, and attach those files to the ticket. A person reviews generated code before it is merged. I mentor juniors on design and testing.",
     },
     {
       company: "MerchantSpring",
@@ -164,7 +164,7 @@ export const RESUME_DATA = {
         "TypeORM",
         "Playwright",
       ],
-      description: "Operators assess what a property is worth.",
+      description: "Property managers assess what a property is worth.",
       link: {
         label: "valuation",
         href: "https://demo.business.wealth-park.com/",
@@ -191,7 +191,7 @@ export const RESUME_DATA = {
         "Playwright",
       ],
       description:
-        "Owners read documents, message the operator, and follow activity on their property in one place.",
+        "Owners read documents, message the property manager, and follow activity on their property in one place.",
       link: {
         label: "owner web app",
         href: "https://owner.wealth-park.com/",
@@ -215,7 +215,7 @@ export const RESUME_DATA = {
         "Playwright",
       ],
       description:
-        "Operators review expenses, income, and property updates before they go through.",
+        "Property managers review expenses, income, and property updates before they go through.",
       link: {
         label: "workflow",
         href: "https://demo.workflow.wealth-park.com/operation/",
